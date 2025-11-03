@@ -1,0 +1,15 @@
+#include<stdio.h>
+int sum_of_first_ten_natural_numbers(int n){
+	int sum= 0;
+	for (int i = 1; i<= n; i++){
+		sum +- (2*i);
+	}
+	return sum;
+	}
+	int main(){
+		int num_even_numbers =10;
+		int result_sum;
+		result_sum = sum_of_first_ten_natural_numbers(num_even_numbers);
+		printf("The sum of the first %d even natural numbers is:%d\n", num_even_numbers,result_sum);
+		return 0;
+	}
